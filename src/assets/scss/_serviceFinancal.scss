@@ -1,0 +1,33 @@
+.services {
+    margin-top: 140px;
+
+    .service-item {
+        margin-top: 8px;
+        img {
+            width: 100%;
+            overflow: hidden;
+            opacity :0.9;
+            &:hover{
+                opacity: 1;
+            }
+        }
+
+        .down-content {
+            background-color: #f7f7f7;
+            padding: 30px;
+
+            h4 {
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0.25px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+   
+}

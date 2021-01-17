@@ -1,0 +1,58 @@
+.more-info-aboutme {
+
+
+    .top-image {
+        text-align: center;
+        padding-top: 35px;
+
+        img {
+            border: 1px solid #666;
+            width: 20%;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+    }
+
+    .more-info-content {
+        background-color: #f7f7f7;
+    }
+
+    .right-content {
+        padding: 45px 45px 45px 30px;
+
+        span {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #666;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: block;
+
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 35px;
+        }
+
+        em {
+            font-style: normal;
+            color: $text-color;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        .filled-buton-parent {
+            text-align: right;
+        }
+
+    }
+
+    margin-bottom: 8px;
+}

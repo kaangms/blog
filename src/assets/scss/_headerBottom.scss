@@ -1,0 +1,108 @@
+header {
+
+    // position: absolute;
+    // margin-bottom: 80px;
+    // z-index: 99999;
+    width: 100%;
+
+
+    background-color: transparent !important;
+    // height: 20px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+    .navbar {
+
+        // padding: 20px 0px;
+
+        .navbar-brand {
+            // float: left;
+            // margin-top: 12px;
+            outline: none;
+
+            h2,
+            em {
+                font-style: normal;
+                font-size: 24px;
+                color: $text-color;
+            }
+
+        }
+
+        .navbar-nav {
+            a {
+                &.nav-link {
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                    color: $text-color;
+                    transition: all 0.5s;
+                    margin-top: 5px;
+                   
+
+                }
+
+            }
+
+            .nav-link:hover,
+            .active>.nav-link,
+            .nav-link.active,
+            .nav-link.show,
+            .show>.nav-link {
+                color: $text-color;
+                border-bottom: 3px solid $text-color;
+            }
+
+            .nav-item {
+                padding: 7px;
+            }
+
+
+            .btn-secondary {
+                background-color: transparent !important;
+                border: none !important;
+                text-decoration: none !important;
+                text-transform: capitalize !important;
+                font-size: 20px !important;
+                font-weight: 300 !important;
+                letter-spacing: 0.5px !important;
+                color: $text-color !important;
+                transition: all 0.5s !important;
+                margin-top: 5px !important;
+                font-style: normal !important;
+                padding: 8px !important;
+
+                &:hover {
+                    color: $text-color !important;
+                    border-bottom: 3px solid $text-color !important;
+
+                }
+
+            }
+
+            .btn {
+                box-shadow: none !important;
+                
+            }
+
+
+
+
+        }
+    }
+
+}
+.dropdown-item{
+    color:$text-color;
+    font-weight: 300;
+    &:hover{
+        color:$text-color;
+    }
+}
+.dropdown-divider{
+   
+    border-top: 1px solid $text-color;
+}

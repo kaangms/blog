@@ -1,0 +1,36 @@
+.request-form {
+    background-color: #8AAFCE;
+    padding: 40px 0px;
+    color: #fff;
+
+    h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 15px;
+        font-weight: 400;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    a.border-button {
+        margin-top: 12px;
+        float: right;
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 10px 28px;
+        border-radius: 30px;       
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: #fff;
+            color: #8AAFCE;
+        }
+    }
+}

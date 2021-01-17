@@ -1,0 +1,20 @@
+
+categorytable
+catId-CatNAme
+3-Aşk Romanlaro
+4-Diğer
+
+ProdctTable
+Id-catId-ProductName
+72-14-ali
+12-3-aliveli
+22-4-ali46
+23-3-ali49
+24-3-ali12
+24-3-ali12ASASAS
+.
+.
+.
+.
+.
+.

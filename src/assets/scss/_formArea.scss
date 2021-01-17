@@ -1,0 +1,88 @@
+.callback-form {
+    margin-top: 80px;
+
+    .contact-form {
+        background-color: #8AAFCE;
+        padding: 60px;
+        border-radius: 5px;
+        text-align: center;
+
+        input {
+            border-radius: 20px;
+            height: 40px;
+            list-style: 40px;
+            display: inline-block;
+            padding: 0px 15px;
+            color: #6a6a6a;
+            font-size: 13px;
+            text-transform: none;
+            box-shadow: none;
+            border: none;
+            margin-bottom: 35px;
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+        textarea {
+            border-radius: 20px;
+            height: 120px;
+            max-height: 200px;
+            min-height: 120px;
+            display: inline-block;
+            padding: 15px;
+            color: #6a6a6a;
+            font-size: 13px;
+            text-transform: none;
+            box-shadow: none;
+            border: none;
+            margin-bottom: 35px;
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+        &::-webkit-input-placeholder {
+            /* Edge */
+            color: #aaa;
+        }
+
+        &:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #aaa;
+        }
+
+        &::placeholder {
+            color: #aaa;
+        }
+
+        button.border-button {
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 10px 28px;
+            border-radius: 30px;
+            display: inline-block;
+            transition: all 0.3s;
+            outline: none;
+            box-shadow: none;
+            text-shadow: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #fff;
+                color: $text-color;
+            }
+        }
+
+    }
+}

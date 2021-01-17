@@ -1,0 +1,30 @@
+.contact-information {
+    margin-top: 140px;
+
+
+    .contact-item {
+        padding: 60px 30px;
+        background-color: #f7f7f7;
+        text-align: center;
+        svg{
+            color: $text-color;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        h4{
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.25px;
+            margin-bottom: 15px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        a{
+            font-weight: 600;
+            color: $text-color;
+            font-size: 15px;
+        }
+
+    }
+}

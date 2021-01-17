@@ -1,0 +1,45 @@
+.more-info {
+    margin-top: 20px;
+
+    .left-image {
+        img {
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+
+    .more-info-content {
+        background-color: #f7f7f7;
+    }
+
+    .right-content {
+        padding: 45px 45px 45px 30px;
+
+        span {
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #666;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: block;
+
+
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 35px;
+        }
+
+        em {
+            font-style: normal;
+            color: $text-color;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+    }
+}
