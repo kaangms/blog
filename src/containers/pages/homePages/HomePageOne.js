@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import ContactArea from "../../../components/contactArea/ContactArea";
 import ServiceFinancial from "../../../components/serviceContents/ServiceFinancial";
 import AboutUsArea from "../../../components/about/AboutUsArea";
-import FormArea from "../../../components/form/FormArea";
+// import FormArea from "../../../components/form/FormArea";
 import CarouselSlider from "../../../components/heroSlider/CarouselSlider";
 
 export const index = (props) => {

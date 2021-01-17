@@ -1,11 +1,11 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Posts from '../../../components/blog/Posts'
+import PostDashboard from '../../../components/blog/PostDashboard'
 
 export const BlogPageOne = (props) => {
     return (
         <div>
-            <Posts/>
+            <PostDashboard/>
         </div>
     )
 }
